@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage{listings}
 \usepackage[colorlinks=true,pagebackref,linkcolor=blue]{hyperref}
+\usepackage{graphicx}
 \textwidth=7in
 \textheight=9.5in
 \topmargin=-1in
@@ -92,7 +93,7 @@ git commit -m "X added"
 
 git checkout master
 
-git merge alt+ %merges and resolves conflicts
+git merge alt %merges and resolves conflicts
 
 vi main.txt
 
@@ -110,8 +111,12 @@ git log --graph --oneline
 
 git checkout alt
 
-git log --graph --onelinee
+git log --graph --oneline
 
+
+\newpage
+
+\includegraphics[width=\textwidth]{graph.png}
 
 %PROBLEM 2
 \newpage
